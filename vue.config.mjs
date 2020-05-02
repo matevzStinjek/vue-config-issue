@@ -1,7 +1,7 @@
 // vue.config.(js -> mjs)
 
-// import { join, resolve } from 'path'
-const { join, resolve } = require('path') 
+import { join, resolve } from 'path'
+// const { join, resolve } = require('path') 
 
 const path = p => join(resolve(), p)
 
